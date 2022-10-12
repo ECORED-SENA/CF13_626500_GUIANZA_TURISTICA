@@ -4,14 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="fade-down-right")
       .titulo-principal__numero.text-white
-        span 3
-      h1 Administración de recursos físicos en el guionaje
+        span 4
+      h1 Alistamiento administrativo
 
 </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   data: () => ({
     // variables de vue
   }),

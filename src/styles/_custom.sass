@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 45%
+    right: 65%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 66%
+    left: -55%
 
 
 @keyframes float1
@@ -17,3 +17,322 @@
 
   100%
     transform: translateY(0px)
+
+// banner interno
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-interno.jpg") !important    
+
+.banner-interno__titulo__icono
+  background-color: white !important
+  
+.banner-interno__titulo h2
+  color: white !important 
+
+.banner-principal__img
+  align-self: center
+  padding-top: 1rem !important
+  padding-bottom: 0 !important
+
+// fondos
+.fondo
+  &-1
+    background-color: #FFF4D1
+  &-2
+    background-color: #B7CEAC
+  &-3
+    background-image: url('../assets/curso/tema1/fondo1.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-4
+    background-color: #FFD667
+  &-5
+    .tarjeta--gris
+      background-color: #D2E1F1
+  &-6
+    background-image: url('../assets/curso/tema1/fondo2.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-7
+    background-image: url('../assets/curso/tema1/fondo3.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: center
+  &-8
+    background-color: #3F6A30
+  &-9
+    background-color: #FAB729
+  &-10
+    background-image: url('../assets/curso/tema1/fondo.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: bottom
+  &-11
+    background-color: #FCCF88
+  &-12
+    background-color: #FCEDE5
+  &-13
+    background-color: #F3F9FF
+  &-14
+    background-image: url('../assets/curso/tema1/fondo4.svg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: bottom
+  &-15
+    background-color: #FFDCA3
+  &-16
+    background-color: #D8EDD2
+  &-17
+    background-color: #FFE6A1
+  &-18
+    background-image: url('../assets/curso/tema2/figura1-1.svg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: left top
+    @media (min-width: 768px)
+      display: none
+    @media (max-width: 440px)
+      background-size: 100% 100%
+  &-19
+    background-image: url('../assets/curso/tema2/figura1-2.svg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: right top
+    @media (min-width: 768px)
+      display: none
+  &-20
+    background-image: url('../assets/curso/tema2/figura1-3.svg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: top left
+    @media (min-width: 768px)
+      display: none
+  &-21
+    background-image: url('../assets/curso/tema2/figura1-4.svg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: right top
+    @media (min-width: 768px)
+      display: none
+  &-22
+    background-image: url('../assets/curso/tema2/figura1-5.svg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: left top
+    @media (min-width: 768px)
+      display: none
+
+//padding de figuras y texto
+.padd1
+  @media (max-width: 768px)
+    padding-top: 3em
+    padding-left: 7em
+  @media (max-width: 480px)
+    padding-top: 3em
+    padding-left: 18%
+  @media (max-width: 440px)
+    padding-top: 2.5em
+    padding-left: 17%
+    padding-right: 0
+
+.padd2
+  @media (max-width: 768px)
+    padding-top: 2.5em
+    padding-right: 7em
+    padding-left: 3em
+  @media (max-width: 555px)
+    padding-top: 2.5em
+    padding-right: 6em
+    padding-left: 3em
+  @media (max-width: 500px)
+    padding-top: 2em
+    padding-right: 5.5em
+    padding-left: 1.5em
+
+.padd3
+  @media (max-width: 768px)
+    padding-top: 2em
+    padding-left: 7em
+  @media (max-width: 555px)
+    padding-top: 2em
+    padding-left: 7em
+  @media (max-width: 480px)
+    padding-top: 2em
+    padding-left: 5em
+  @media (max-width: 400px)
+    padding-top: 2em
+    padding-left: 5em
+
+.padd4
+  @media (max-width: 768px)
+    padding-top: 2.5em
+    padding-right: 2em
+    padding-left: 7em
+  @media (max-width: 555px)
+    padding-top: 2.5em
+    padding-right: 3em
+    padding-left: 7em
+  @media (max-width: 500px)
+    padding-top: 2.5em
+    padding-right: 0.5em
+    padding-left: 6em
+  @media (max-width: 400px)
+    padding-top: 2.5em
+    padding-right: 1em
+    padding-left: 4.5em
+
+//titulo
+.fondotitulo
+  background-color: #FFB338
+  border-top-left-radius: 30px
+  border-top-right-radius: 30px
+
+//línea de tiempo
+.linea-tiempo-d__item--selected .tarjeta--gris
+  background-color: #D2DDCE
+
+//texto resaltado
+.resaltado
+  color: #EB6F2D
+
+//acordeón
+.tarjeta.tarjeta--gris.acordion__activo
+  background-color: #E8E8E8
+
+// color esquina cajón
+.cajon.fondocuadrado:before
+  background-color: #4D793F
+
+// color esquina cajón2
+.cajon.fondocuadrado1:before
+  background-color: #F19E72
+
+// color esquina cajón3
+.cajon.fondocuadrado2:before
+  background-color: #FCC843
+
+// expandir fondos
+.ampliar
+  margin-left: -60px
+  margin-right: -60px
+
+//posición de imagen
+.posicion
+  position: relative
+  margin-top: -100px
+  margin-bottom: 0
+  @media (max-width: 1400px)
+    margin-top: -80px
+  @media (max-width: 991px)
+    margin-top: -70px
+  @media (max-width: 568px)
+    margin-top: -50px
+
+.margensup
+  margin-top: 5em
+
+// fondo del subtitulo
+.fondotitulo
+  background-color: #FFB338
+  border-radius: 20px
+  padding: 15px
+
+// Maquetación tarjeta 1.1
+.anchotar
+  .tarjeta-avatar .tarjeta
+    margin-bottom: 20px 
+    @media (min-width: 1401px)
+      height: 240px
+      width: 290px
+    @media (max-width: 1400px)
+      height: 270px
+      width: 265px
+    @media (max-width: 1200px)
+      height: 250px
+      width: 330px
+    @media (max-width: 991px)
+      height: 300px
+      width: 230px 
+    @media (max-width: 768px)
+      height: 220px
+      width: 100%
+    @media (max-width: 576px)
+      height: 240px
+      width: 100%
+
+.tarjeta-avatar > img
+  position: absolute
+  left: 45%
+  top: 0
+  transform: translateX(-50%)
+  display: block
+  width: 250px
+  margin: 0 auto
+  @media (max-width: 1400px)
+    left: 48%
+    width: 230px
+  @media (max-width: 1200px)
+    left: 48%
+    width: 260px
+  @media (max-width: 991px)
+    left: 46%
+    width: 200px
+  @media (max-width: 768px)
+    left: 50%
+    width: 250px
+
+// color chevron
+.fa-chevron-right:before 
+  content: "\f054"
+  color: #707BA3
+
+.fa-chevron-left:before 
+  content: "\f053"
+  color: #707BA3
+
+//mostrar/no mostrar imagen
+.display1
+  @media (max-width: 768px)
+    display: none
+  
+.display2
+  @media (min-width: 768px)
+    display: none
+
+//padding personalizado
+.margen
+  margin-bottom: 16.5em
+  margin-top: 2em
+  padding-inline: 0
+  @media (max-width: 1400px)
+    margin-bottom: 14.5em
+    margin-top: 3em
+    padding-inline: 1em
+  @media (max-width: 1200px)
+    margin-bottom: 13.5em
+    margin-top: 5em
+    padding-inline: 0.5em
+  @media (max-width: 768px)
+    margin-bottom: 11em
+    margin-top: 6em
+    padding-inline: 0.1em
+  @media (max-width: 576px)
+    margin-bottom: 11em
+    margin-top: 1em
+    padding-inline: 9em
+  @media (max-width: 500px)
+    margin-bottom: 11em
+    margin-top: 1em
+    padding-left: 7em
+    padding-right: 8em
+  @media (max-width: 450px)
+    margin-bottom: 11em
+    margin-top: 1em
+    padding-left: 6em
+    padding-right: 7em
+  @media (max-width: 400px)
+    margin-bottom: 11em
+    margin-top: 1em
+    padding-left: 4em
+    padding-right: 5em
