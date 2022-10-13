@@ -125,7 +125,25 @@
     background-size: 100% auto
     background-repeat: no-repeat
     background-position: bottom
-
+  &-30
+    background-color: #C9E4FF
+  &-31
+    background-color: #FFEBCB
+  &-32
+    background-color: #3F6A31 !important
+  &-33
+    background-color: #406834
+  &-34
+    background-color: #FFD667
+  &-35
+    background-color: #F2F1F1
+  &-36
+    background-color: #E3F5FF
+  &-37
+    background-image: url('../assets/curso/tema4/fondo1.jpg')
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: bottom
 
 //borde tarjeta
 .bordetarjeta
@@ -134,11 +152,18 @@
 .sombra
   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 25%)
 
+.sombra1
+  box-shadow: 2px 2px 5px 2px #7774744b
+
+
 .sinsombra
   box-shadow: none
 
 .bordenaranja
   border: 2px solid #EB6F2D
+
+.bordesredondos
+  border-radius: 20px
 
 //titulo
 .fondotitulo1
@@ -189,6 +214,9 @@
 
 .margensup
   margin-top: 5em
+
+.margensupboton
+  margin-top: -70px
 
 // fondo del subtitulo
 .fondotitulo
@@ -416,3 +444,49 @@
     position: relative
     width: 100%
     left: 0
+
+//icono de lupa
+.fa-magnifying-glass-plus:before
+  content: "\f00e"
+
+//maquetacion dibujo 1 en capitulo 4 
+.posicion1
+  position: relative
+  margin-left: 100px
+  @media (max-width: 991px)
+      margin-left: 40px
+.posicion2
+  position: relative
+  margin-left: 10px
+
+.posicion4
+  position: relative
+  margin-left: -50px
+  @media (max-width: 991px)
+      margin-left: -20px
+
+.posicion5
+  position: relative
+  margin-left: -90px
+  @media (max-width: 991px)
+      margin-left: -60px
+
+// diagrama
+.mostrarmas991
+  @media (max-width: 992px)
+    display: none
+
+.mostrarmenos991
+  @media (min-width: 991px)
+    display: none
+
+//color de + en la infografia
+.img-infografica.color-acento-contenido .img-infografica__item__numero
+  color: #fff
+
+//tamaño del punto de la infografia
+.img-infografica__item__dot, .img-infografica-b__item__dot
+  position: relative
+  width: 200%
+  left: -50%
+  padding-top: 200%
