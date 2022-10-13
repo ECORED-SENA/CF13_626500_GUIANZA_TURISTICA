@@ -12,7 +12,7 @@
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         p El guía de turismo, por ser un prestador de servicios turísticos, puede desempeñarse de manera independiente, y es reconocido como una empresa unipersonal. Sin embargo, es una empresa que igualmente se debe organizar con una estructura antes de empezar la operación. La guianza al adoptar los principios de la administración, planificar, controlar, dirigir y organizar recursos, también requiere de una estructura, es decir, de la definición de funciones, responsabilidades, relaciones de coordinación y comunicaciones con el fin de lograr los objetivos de un servicio.
         p.p-3.fondo-1 Con miras a establecer una estructura empresarial, se requieren herramientas de organización administrativa, para que el guía puede trazar procesos dinámicos, coordinar e integrar un conjunto de personas en relación con unos recursos, y así conseguir el resultado u objeto planteado en el plan de acción.
-    p.my-5(data-aos="fade-down-left") Al generar una estructura, todos los actores que intervienen en el servicio guiado comprenden los objetivos, funciones y sus responsabilidades, con el fin de determinar dicha estructura organizacional, para lo cual se requiere la aplicación de los siguientes principios de acuerdo con Chiavenato (2012).
+    p.mb-5(data-aos="fade-down-left") Al generar una estructura, todos los actores que intervienen en el servicio guiado comprenden los objetivos, funciones y sus responsabilidades, con el fin de determinar dicha estructura organizacional, para lo cual se requiere la aplicación de los siguientes principios de acuerdo con Chiavenato (2012).
     .row.justify-content-center.align-items-center
       .col-lg-7.col-md-12(data-aos="fade-down-right")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
@@ -52,7 +52,7 @@
     .row.ampliar.px-5.fondo-3
       .col-12
         .cajon.fondocuadrado.p-4.mb-4.fondo-2(data-aos="fade-down-left")
-          p.px-5.mb-0 Para aplicar los principios de la organización se recomienda el uso de herramientas como el diagrama de afinidad, el mapa de proceso, el flujograma, manuales de procedimiento y hoja de verificación. 
+          p.px-0.px-md-4.mb-0 Para aplicar los principios de la organización se recomienda el uso de herramientas como el diagrama de afinidad, el mapa de proceso, el flujograma, manuales de procedimiento y hoja de verificación. 
         separador
         #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-down-left")
           h2 1.1 Mapa de procesos
@@ -187,8 +187,8 @@
           .col-lg-3.col-md-4.col-sm-4.col-4(data-aos="fade-down-right")
             img.posicion(src='@/assets/curso/tema1/imagen4.png')
           .col-lg-7.col-md-auto.col-sm-auto.col-auto(data-aos="fade-down")
-            h3.mt-3 Manual de procesos y procedimientos de la Empresa Social del Estado Hospital Universitario del Caribe
-            p Para apreciar un ejemplo a este respecto, se recomienda revisar en el material complementario el Manual de procesos y procedimientos de la Empresa Social del Estado Hospital Universitario del Caribe.
+            h3.mt-3.ms-3 Manual de procesos y procedimientos de la Empresa Social del Estado Hospital Universitario del Caribe
+            p.ms-3 Para apreciar un ejemplo a este respecto, se recomienda revisar en el material complementario el Manual de procesos y procedimientos de la Empresa Social del Estado Hospital Universitario del Caribe.
           .col-lg-2.col-md-auto.col-sm-auto.col-auto.mb-4(data-aos="fade-down-left")
             a.boton.color-acento-botones(:href="obtenerLink('downloads/manual_procesos_procedimientos.pdf')" target="_blank" type="application/pdf")
               span Descargar
@@ -199,9 +199,9 @@
     .row.justify-content-center
       .col-lg-8.col-md-12.mb-4(data-aos="fade-down-left")
         span.fondo-11.p-1 Conocido como el método KJ 
-        span por las iniciales de su creador Kawakita Jiro en la década de 1960, es una herramienta útil para organizar el equipo de trabajo, en una operación en la que intervienen guías rastrillo o guías de apoyo, guía con formación en primeros auxilios o APH (atención prehospitalaria), intérprete, también en una operación grande o más compleja en donde interviene personal de alojamiento, restaurante, transporte, entre otros. Se utiliza cuando falta un manual de procedimientos, el servicio es complejo, la orden de servicio no es clara, y cuando se requiere de la participación y soporte de todo el equipo de trabajo.
+        span por las iniciales de su creador <em>Kawakita Jiro</em> en la década de 1960, es una herramienta útil para organizar el equipo de trabajo, en una operación en la que intervienen guías rastrillo o guías de apoyo, guía con formación en primeros auxilios o APH (atención prehospitalaria), intérprete, también en una operación grande o más compleja en donde interviene personal de alojamiento, restaurante, transporte, entre otros. Se utiliza cuando falta un manual de procedimientos, el servicio es complejo, la orden de servicio no es clara, y cuando se requiere de la participación y soporte de todo el equipo de trabajo.
         .cajon.fondocuadrado1.p-4.my-4.fondo-12(data-aos="fade-down-left")
-          p.px-5.mb-0 Se usa con la técnica de lluvia de ideas para agrupar aquellos elementos que están relacionados entre sí de forma natural. Es un proceso creativo diseñado para reunir hechos, opiniones e ideas que se encuentran en un estado de desorganización y producir consenso por medio de la clasificación que hace el equipo de trabajo. 
+          p.px-0.px-md-4.mb-0 Se usa con la técnica de lluvia de ideas para agrupar aquellos elementos que están relacionados entre sí de forma natural. Es un proceso creativo diseñado para reunir hechos, opiniones e ideas que se encuentran en un estado de desorganización y producir consenso por medio de la clasificación que hace el equipo de trabajo. 
       .col-lg-4.col-md-12(data-aos="fade-down-right")
         img(src='@/assets/curso/tema1/imagen5.jpg')
     p.my-5.text-bold(data-aos="fade-down-left") A continuación, se presentan los pasos a seguir, los cuales generalmente el guía líder debe dirigir para hacer el diagrama de afinidad (Secretaría de Gestión Pública, 2015).
@@ -246,7 +246,7 @@
       .tarjeta-avatar
         img(src='@/assets/curso/tema1/imagen12.png')
         .tarjeta.fondo-4
-          .text-dark.p-1.p-sm-4
+          .text-dark.p-4
             p.mt-2.mt-sm-3.mt-md-0.mt-lg-3 Mediante un consenso se asignará un nombre que transmita el significado de cada grupo de fichas o tarjetas.
     .cajon.fondocuadrado.p-4.mb-4.fondo-2(data-aos="fade-down-left")
       .row.justify-content-center.align-items-center
@@ -274,17 +274,17 @@
       span Proceso que se realiza al construir un diagrama de afinidad
     .row.justify-content-center.align-items-center
       .col-lg-3.col-md-4.col-sm-4.me-3.me-md-5.fondo-14.mb-4(data-aos="fade-down-left")
-        p.margen Trabajar mediante la formulación de preguntas, tipo método Scamper.
+        p.margen Trabajar mediante la formulación de preguntas, tipo método <em>Scamper</em>.
       .col-lg-5.col-md-7.col-sm-7(data-aos="fade-down-right")
         .row
           .col-12.fondo-15.p-3.mb-2
             p Nombrar un líder de equipo que dinamice y mantenga el foco de atención del problema a resolver. 
           .col-12.fondo-16.p-3.mb-2
-            p Disponer de un espacio físico en donde se puedan colocar las ideas, mediante post it o cartulinas.
+            p Disponer de un espacio físico en donde se puedan colocar las ideas, mediante <em>post it</em> o cartulinas.
           .col-12.fondo-15.p-3.mb-2
-            p Definir el punto de partida semejante al design thinking.
+            p Definir el punto de partida semejante al <em>design thinking</em>.
           .col-12.fondo-16.p-3.mb-2
-            p Hacer la lluvia de ideas o brainstorming de manera individual.
+            p Hacer la lluvia de ideas o <em>brainstorming</em> de manera individual.
           .col-12.fondo-15.p-3.mb-2
             p Trabajar mediante grupos de características comunes o categorías definidas.
           .col-12.fondo-16.p-3.mb-2
@@ -303,7 +303,7 @@
         img(src='@/assets/curso/tema1/figura17.svg')
       .col-lg-1
     .cajon.fondocuadrado2.p-4.mb-4.fondo-17.mt-5(data-aos="fade-down-left")
-      p.px-4.mb-0 Para quien es evaluado (el guía o apoyo del servicio guiado) es una herramienta de un respaldo detallado de todas las condiciones y etapas del procedimiento que debe realizar. En ámbitos como la aviación, los pilotos controlan mediante “check list” cada una de las condiciones antes de despegar. Igual tratamiento merecen las personas usuarias de un servicio guiado. (Delfino, Delfino y Bernadá, 2010).
+      p.px-4.mb-0 Para quien es evaluado (el guía o apoyo del servicio guiado) es una herramienta de un respaldo detallado de todas las condiciones y etapas del procedimiento que debe realizar. En ámbitos como la aviación, los pilotos controlan mediante <em>“check list”</em> cada una de las condiciones antes de despegar. Igual tratamiento merecen las personas usuarias de un servicio guiado. (Delfino, Delfino y Bernadá, 2010).
 </template>
 
 <script>
