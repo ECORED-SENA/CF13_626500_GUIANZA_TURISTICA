@@ -53,5 +53,7 @@
     <path id="Trazado_657686" data-name="Trazado 657686" d="M-2161-8567v38.5" transform="translate(2876 12146)" fill="none" stroke="#eb6f2d" stroke-width="2"/>
     <path id="Trazado_658133" data-name="Trazado 658133" d="M10,0,20,17H0Z" transform="translate(725 3626) rotate(180)" fill="#eb6f2d"/>
     <path id="Trazado_657687" data-name="Trazado 657687" d="M-2161-8567v94" transform="translate(9415 1497.5) rotate(-90)" fill="none" stroke="#eb6f2d" stroke-width="2"/>
+    <text id="_." data-name="." transform="translate(799 3097)" fill="#12263f" font-size="18" font-family="ArialMT, Arial"><tspan x="0" y="0">.</tspan></text>
+    <text id="_.-2" data-name="." transform="translate(754 3271)" fill="#12263f" font-size="18" font-family="ArialMT, Arial"><tspan x="0" y="0">.</tspan></text>
   </g>
 </svg>

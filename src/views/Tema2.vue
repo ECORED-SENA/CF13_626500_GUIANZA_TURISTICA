@@ -6,7 +6,7 @@
       .titulo-principal__numero.text-white
         span 2
       h1 Herramientas ofimáticas
-    p.mb-5(data-aos="fade-down-left") Existe una variedad de métodos para identificar los riesgos, especialmente en ambientes laborales, y muchos se sustentan en la medición de la valoración de la probabilidad y la severidad de las consecuencias, atribuyéndole un valor numérico al riesgo, ejemplificado en esta fórmula Probabilidad x Consecuencia = Riesgo.
+    p.mb-5(data-aos="fade-down-left") En el guionaje las herramientas ofimáticas hacen referencia a las técnicas, aplicaciones y programas informáticos que se utilizan en funciones administrativas para optimizar, automatizar y mejorar los procedimientos y tareas, como:
     .row.justify-content-center
       .col-auto.fondotitulo1.py-2.px-4(data-aos="fade-down-right")
         h3.text-center Herramientas Ofimáticas
@@ -255,7 +255,7 @@
         .row
           .col-auto.fondotitulo.my-5(data-aos="fade-down-right")
             h3.text-center.mb-0 Almacenamiento en la nube
-        p(data-aos="fade-down-left") Otro de los aspectos que debe manejar el guía de turismo es el almacenamiento en la nube, como una ventaja competitiva para sobresalir frente a la competencia. Según <em>Freyle</em>, et al. (2014), la razón para que esto se dé, es que la gestión de las operaciones de las organizaciones mejora los servicios, optimizando los procesos al estrechar las relaciones con los usuarios y otros prestadores, se logra con la gestión del conocimiento o knowledge management en inglés (KM), que busca la identificación y el aprovechamiento del conocimiento colectivo de una organización, en este caso específico la experiencia del guía para ayudarle a competir.
+        p(data-aos="fade-down-left") Otro de los aspectos que debe manejar el guía de turismo es el almacenamiento en la nube, como una ventaja competitiva para sobresalir frente a la competencia. Según <em>Freyle</em>, et al. (2014), la razón para que esto se dé, es que la gestión de las operaciones de las organizaciones mejora los servicios, optimizando los procesos al estrechar las relaciones con los usuarios y otros prestadores, se logra con la gestión del conocimiento o <em>knowledge management</em> en inglés (KM), que busca la identificación y el aprovechamiento del conocimiento colectivo de una organización, en este caso específico la experiencia del guía para ayudarle a competir.
         p.mb-5(data-aos="fade-down-right") El proceso de almacenamiento de conocimientos se centra en la forma en capturar, guardar y posteriormente poder consultar sus experiencias o ponerlos a disposición de usuarios y como valor agregado.
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="fade-down-left")
           .bloque-texto-g__img.cambioimg(
@@ -272,10 +272,10 @@
           .col-lg-7.col-md-auto.col-sm-auto.col-auto(data-aos="fade-down")
             h3.mt-3 Ofimática y proceso de la información.
             p Para más información sobre el uso de las herramientas informáticas, se sugiere consultar el material complementario Ofimática y proceso de la información.
-          .col-lg-2.col-md-auto.col-sm-auto.col-auto.mb-4(data-aos="fade-down-left")
-            a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
-              span Descargar
-              i.fas.fa-file-download
+          .col-lg-2.col-md-auto.col-sm-auto.col-auto.mb-4.p-4(data-aos="fade-down-left")
+            a.boton.color-acento-botones(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4739" target="_blank")
+              span Ver 
+              i.fas.fa-link
 
 
 </template>

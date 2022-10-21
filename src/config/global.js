@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Organización del servicio de guionaje.',
+    componenteFormativo: 'Organización del servicio de guionaje',
     descripcionCurso:
       'Una vez se ha realizado el ciclo PHVA, se implementan planes de mejora mediante el uso de herramientas tanto documentales como ofimáticas, así se puede realizar el seguimiento y control de los equipos-bienes de la empresa. Además, se deben tener en cuenta los requerimientos tributarios para el prestador y los proveedores del servicio, con recomendaciones a guardar para sitios especiales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
