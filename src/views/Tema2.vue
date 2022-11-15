@@ -85,7 +85,7 @@
           .col-auto.fondotitulo.mb-5(data-aos="fade-down-right")
             h3.text-center.mb-0 Procesador de texto
         .row.justify-content-center
-          .col-lg-8.col-md-12.fondo-21.p-4(data-aos="fade-down-left")
+          .col-lg-8.col-md-12.fondo-21.px-4.pt-2.pb-0(data-aos="fade-down-left")
             .row.justify-content-center.align-items-center.p-3
               .col-lg-2.col-md-3.col-sm-3.col-3.mb-4
                 img(src='@/assets/curso/tema2/teclado.svg')
@@ -165,9 +165,9 @@
           .col-auto.fondotitulo.my-5(data-aos="fade-down-right")
             h3.text-center.mb-0 Hoja de cálculo          
         .row.justify-content-center
-          .col-lg-8.col-md-12.fondo-21.p-4
-            .row.justify-content-center.align-items-center.p-3
-              .col-lg-2.col-md-3.col-sm-3.col-3
+          .col-lg-8.col-md-12.fondo-21
+            .row.justify-content-center.align-items-center.px-4.pt-2.pb-0
+              .col-lg-2.col-md-3.col-sm-3.col-3.p-4
                 img(src='@/assets/curso/tema2/hoja-de-calculo.svg')
               .col-lg-10.col-md-9.col-sm-9.col-9
                 span.text-bold Es un tipo de documento que permite manipular datos numéricos y alfanuméricos 
@@ -226,30 +226,32 @@
           .col-auto.fondotitulo.my-5(data-aos="fade-down-right")
             h3.text-center.mb-0 Redes sociales
         p.mb-5 Igualmente, las redes sociales como canal de difusión empresarial han tomado fuerza, entre los medios a utilizar están los videos sobre sus servicios y campañas publicitarias o descuentos, concursos y otras estrategias. Más del 90% de los clientes potenciales están en las redes sociales y por ello son excelentes herramientas para saber lo que funciona o no de sus servicios, y también es un canal de comunicación personalizado de atención a sus clientes. Las principales redes sociales que tienen mayor uso, así como una breve descripción de cada una de ellas, puede ser consultado a continuación:
-        ImagenInfografica.color-acento-botones.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema2/redes.svg', alt='Redes sociales')
+        .row.justify-content-center
+          .col-lg-9.col-md-12
+            ImagenInfografica.color-acento-botones.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/redes.svg', alt='Redes sociales')
 
-          .tarjeta.fondo-13.p-3.bordetarjeta(x="29.5%" y="22.2%" numero="+")
-            .h5.mb-2 FACEBOOK
-            p Darse a conocer, ganar visibilidad, crear y comunicar promociones, crear una tienda <em>on line</em> y fidelizar clientes.
+              .tarjeta.fondo-13.p-3.bordetarjeta(x="29.5%" y="22.2%" numero="+")
+                .h5.mb-2 FACEBOOK
+                p Darse a conocer, ganar visibilidad, crear y comunicar promociones, crear una tienda <em>on line</em> y fidelizar clientes.
 
-          .tarjeta.fondo-13.p-3.bordetarjeta(x="36.5%" y="46.2%" numero="+")
-            .h5.mb-2 INSTAGRAM
-            p Una imagen vale más que mil palabras. Crear comunidad. Mostrar los productos, mejorar la imagen de la marca.
+              .tarjeta.fondo-13.p-3.bordetarjeta(x="36.5%" y="46.2%" numero="+")
+                .h5.mb-2 INSTAGRAM
+                p Una imagen vale más que mil palabras. Crear comunidad. Mostrar los productos, mejorar la imagen de la marca.
 
-          .tarjeta.fondo-13.p-3.bordetarjeta(x="50%" y="54%" numero="+")
-            .h5.mb-2 YOUTUBE
-            p Crear contenido dinámico en video y de diferentes longitudes. Mostrar videos sobre la empresa, servicios, etc.
+              .tarjeta.fondo-13.p-3.bordetarjeta(x="50%" y="54%" numero="+")
+                .h5.mb-2 YOUTUBE
+                p Crear contenido dinámico en video y de diferentes longitudes. Mostrar videos sobre la empresa, servicios, etc.
 
-          .tarjeta.fondo-13.p-3.bordetarjeta(x="63.7%" y="46%" numero="+")
-            .h5.mb-2 TWITTER
-            p Conocer lo que dicen de tu marca o servicio, medio de contacto con los clientes, atención a quejas, comunicación de avisos cortos.
+              .tarjeta.fondo-13.p-3.bordetarjeta(x="63.7%" y="46%" numero="+")
+                .h5.mb-2 TWITTER
+                p Conocer lo que dicen de tu marca o servicio, medio de contacto con los clientes, atención a quejas, comunicación de avisos cortos.
 
-          .tarjeta.fondo-13.p-3.bordetarjeta(x="70.5%" y="22.2%" numero="+")
-            .h5.mb-2 LINKEDLN
-            p Desarrollar una imagen corporativa, encontrar colaboradores, comunicar proyectos e incrementar relaciones con otras marcas.
+              .tarjeta.fondo-13.p-3.bordetarjeta(x="70.5%" y="22.2%" numero="+")
+                .h5.mb-2 LINKEDIN
+                p Desarrollar una imagen corporativa, encontrar colaboradores, comunicar proyectos e incrementar relaciones con otras marcas.
     .row.ampliar.px-5.fondo-20
       .col-12
         .row

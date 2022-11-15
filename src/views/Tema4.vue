@@ -21,8 +21,8 @@
       .col-lg-10.col-md-12(data-aos="fade-down-left")
         img(src='@/assets/curso/tema4/diagrama1.svg')
     .row.justify-content-center.my-5
-      .col-lg-10.col-md-12.fondo-17.bordesredondos.p-4(data-aos="fade-down-left")
-        .row.justify-content-center.align-items-center.p-3
+      .col-lg-10.col-md-12.fondo-17.bordesredondos(data-aos="fade-down-left")
+        .row.justify-content-center.align-items-center.px-3.pt-2.pb-0
           .col-lg-2.col-md-3.col-sm-4.col-4.mb-4.p-lg-4
             img(src='@/assets/curso/tema4/cuenta.svg')
           .col-lg-10.col-md-9.col-sm-12.col-12
@@ -64,11 +64,11 @@
         img(src='@/assets/curso/tema4/figura1.svg')
     .row.justify-content-center.my-5
       .col-lg-10.col-md-12.fondo-30.bordesredondos(data-aos="fade-down-left")
-        .row.justify-content-center.align-items-center.px-3
-          .col-lg-2.col-md-3.col-sm-4.col-4.mb-4.p-lg-4.mt-4
-            img(src='@/assets/curso/tema4/figura2.svg')
-          .col-lg-10.col-md-9.col-sm-12.col-12
-            p La factura electrónica se genera, valida, expide, recibe, rechaza y conserva electrónicamente, lo que representa mayores ventajas, reduce costos de papel y tributariamente, es un soporte de transacciones de venta de bienes y/o servicios (DIAN, 2021).
+        .row.justify-content-center.align-items-center.ps-4.pe-5
+          .col-lg-2.col-md-2.col-sm-4.col-4.p-lg-4.pt-4.pt-md-0
+            img.p-2(src='@/assets/curso/tema4/figura2.svg')
+          .col-lg-10.col-md-10.col-sm-12.col-12.py-3
+            p.mb-0 La factura electrónica se genera, valida, expide, recibe, rechaza y conserva electrónicamente, lo que representa mayores ventajas, reduce costos de papel y tributariamente, es un soporte de transacciones de venta de bienes y/o servicios (DIAN, 2021).
     p.my-5(data-aos="fade-down-left") Además, es necesario tener en cuenta que la factura digital cuenta con los mismos elementos explicados anteriormente, los cuales deben identificarse plenamente, sin prestar confusión en el texto, numerales, consecutivos y demás; la siguiente gráfica explica algunos elementos para tener en cuenta en este tipo de factura:
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade")
       h5 Figura 10 
@@ -241,8 +241,8 @@
             p.text-bold Solicitar permiso para tomar fotografías
             p Si dentro del atractivo hay personas de la comunidad, informe a los turistas que debe pedir permiso para tomar fotografías, de lo contrario la comunidad lo puede tomar como falta de respeto. Esto aplica para la visita desde una comunidad indígena hasta una plaza de mercado.
 
-    .row
-      .col-12.fondo-37.py-5.px-4.mt-4(data-aos="fade-down-left")
+    .row.ampliar.px-5.fondo-37
+      .col-12.py-5.px-4.mt-4(data-aos="fade-down-left")
         p Si el lugar a visitar no está declarado atractivo y es propiedad privada, debe realizar la respectiva gestión para el ingreso, independiente que sea paso transitorio en un sendero o permanezca con los usuarios poco tiempo, evite exponer tanto a sí mismo, como a los usuarios que le acompañan a las acciones que pueda tomar el propietario.
 
 

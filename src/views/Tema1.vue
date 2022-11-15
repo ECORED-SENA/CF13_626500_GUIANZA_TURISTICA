@@ -58,7 +58,7 @@
           h2 1.1 Mapa de procesos
         p(data-aos="fade-down-right") Según Pardo (2013), el mapa de procesos es una herramienta para representar gráficamente los procesos de una organización. Se caracteriza por mostrar de manera global, las entradas y salidas, e interrelaciones entre participantes, y su desarrollo secuencial, por tanto, hace visible la estructura de los diferentes métodos utilizados para la generación del servicio y para el funcionamiento interno.
         p.text-bold(data-aos="fade-down-left") En el guionaje, el mapa de procesos contribuye al establecimiento de las siguientes acciones específicas que se explican a continuación.
-        .row.justify-content-center
+        .row.justify-content-center.mt-5
           .col-lg-7.col-md-12.mb-4(data-aos="fade-down-right")
             LineaTiempoD.fondo-5
               p(numero="1" titulo="Determina el proceso del servicio") El mapa de procesos determina al interior del proceso en el servicio dónde empieza y dónde acaba y, además, qué incluye dicho proceso.
@@ -103,14 +103,14 @@
     p(data-aos="fade-down-right") El flujograma fue ideado por programadores informáticos en la década de 1940, aprovechando métodos de representación ya existentes. Pasó de ser protagonista en el campo informático al mundo empresarial, porque demostró ser de gran utilidad para ilustrar gráficamente los procesos y, con ello, hacer más visible para un equipo de trabajo un concepto abstracto (Pardo, 2013).
     p.text-bold(data-aos="fade-down-left") El flujograma en guionaje permite:
     .row.justify-content-center.my-5
-      .col-lg-6.col-md-12.p-5.fondo-8(data-aos="fade-down-right")
+      .col-lg-6.col-md-12.p-5.fondo-8.mb-lg-5(data-aos="fade-down-right")
         .row.justify-content-center
           .col-4
             img(src='@/assets/curso/tema1/figura8.svg')
           .col-12
             h4.text-white.mt-4 Comprender ágilmente las acciones a realizar
             p.text-white Los actores involucrados llegan a un acuerdo sobre los métodos a seguir con más convicción y rapidez. En las reuniones de trabajo se identifican más rápido los problemas y oportunidades de mejora, establecer recursos, coordinar actuaciones, delimitar tiempos.
-      .col-lg-6.col-md-12.p-5.fondo-9(data-aos="fade-down-left")
+      .col-lg-6.col-md-12.p-5.fondo-9.mb-lg-5(data-aos="fade-down-left")
         .row.justify-content-center
           .col-4
             img(src='@/assets/curso/tema1/figura9.svg')
@@ -146,9 +146,9 @@
       .col-auto.fondotitulo(data-aos="fade-down-right")
         h3.text-center.mb-0 Elementos que debe contener un manual de procedimientos
     .row.justify-content-center.my-5
-      .col-lg-4.col-md-8.col-sm-10.col-10.mb-4(data-aos="fade-down-left")
+      .col-lg-4.col-md-8.col-sm-10.col-10.mb-5(data-aos="fade-down-left")
         img(src='@/assets/curso/tema1/figura10.svg')
-      .col-lg-6.col-md-12(data-aos="fade-down-left")
+      .col-lg-6.col-md-12.mb-5(data-aos="fade-down-left")
         LineaTiempoD.fondo-5
           .row(numero="1" titulo="Objetivos trazados").p-3.align-items-center.justify-content-center
             .col-sm-8.col-12.mb-4.mb-md-0
@@ -200,7 +200,7 @@
       .col-lg-8.col-md-12.mb-4(data-aos="fade-down-left")
         span.fondo-11.p-1 Conocido como el método KJ 
         span por las iniciales de su creador <em>Kawakita Jiro</em> en la década de 1960, es una herramienta útil para organizar el equipo de trabajo, en una operación en la que intervienen guías rastrillo o guías de apoyo, guía con formación en primeros auxilios o APH (atención prehospitalaria), intérprete, también en una operación grande o más compleja en donde interviene personal de alojamiento, restaurante, transporte, entre otros. Se utiliza cuando falta un manual de procedimientos, el servicio es complejo, la orden de servicio no es clara, y cuando se requiere de la participación y soporte de todo el equipo de trabajo.
-        .cajon.fondocuadrado1.p-4.my-4.fondo-12(data-aos="fade-down-left")
+        .cajon.fondocuadrado1.p-4.my-4.fondo-12.sombra1(data-aos="fade-down-left")
           p.px-0.px-md-4.mb-0 Se usa con la técnica de lluvia de ideas para agrupar aquellos elementos que están relacionados entre sí de forma natural. Es un proceso creativo diseñado para reunir hechos, opiniones e ideas que se encuentran en un estado de desorganización y producir consenso por medio de la clasificación que hace el equipo de trabajo. 
       .col-lg-4.col-md-12(data-aos="fade-down-right")
         img(src='@/assets/curso/tema1/imagen5.jpg')
@@ -248,7 +248,7 @@
         .tarjeta.fondo-4
           .text-dark.p-4
             p.mt-2.mt-sm-3.mt-md-0.mt-lg-3 Mediante un consenso se asignará un nombre que transmita el significado de cada grupo de fichas o tarjetas.
-    .cajon.fondocuadrado.p-4.mb-4.fondo-2(data-aos="fade-down-left")
+    .cajon.fondocuadrado.px-4.pt-4.pb-0.mb-4.fondo-2.sombra1(data-aos="fade-down-left")
       .row.justify-content-center.align-items-center
         .col-lg-1.col-md-2.col-sm-3.col-3.mb-4
           img(src='@/assets/curso/tema1/bombilla.svg')
@@ -274,7 +274,7 @@
       span Proceso que se realiza al construir un diagrama de afinidad
     .row.justify-content-center.align-items-center
       .col-lg-3.col-md-4.col-sm-4.me-3.me-md-5.fondo-14.mb-4(data-aos="fade-down-left")
-        p.margen Trabajar mediante la formulación de preguntas, tipo método <em>Scamper</em>.
+        p.margen.text-bold Trabajar mediante la formulación de preguntas, tipo método <em>Scamper</em>.
       .col-lg-5.col-md-7.col-sm-7(data-aos="fade-down-right")
         .row
           .col-12.fondo-15.p-3.mb-2

@@ -11,11 +11,11 @@
         img(src='@/assets/curso/tema3/imagen1.jpg')
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         p Los recursos físicos guardan una estrecha relación con lo establecido en la planeación, la organización, el desarrollo, la coordinación y el control de técnicas, capaces de generar eficiencia en el desempeño del personal. A la vez que posibilita para la empresa el logro de los objetivos propuestos en relación con la guianza turística. Para dar cumplimiento con la administración de los recursos físicos, se hace uso de registros mediante conteo, o fichas de registros, los cuales se explican a continuación.
-    .row
+    .row.mt-4
       .col-auto.fondotitulo.mb-5(data-aos="fade-down-right")
         h3.text-center.mb-0 Inventario
     .row.justify-content-center
-      .col-lg-6.col-md-12.mb-4(data-aos="fade-down-left")
+      .col-lg-6.col-md-12.mb-lg-4(data-aos="fade-down-left")
         span.resaltado.text-bold Según la RAE
         span , el término inventario hace referencia al registro de bienes, en el caso de la guianza los equipos o recursos físicos, pertenecientes, a una persona, comunidad y organización, el cual se debe hacer con orden y precisión. El control de los equipos para la guianza se realiza mediante el conteo físico de los equipos disponibles, siendo indispensable la fácil localización dentro de un lugar de almacenamiento apropiado. 
         p.fondo-18.p-3.mt-2 Los inventarios deben registrarse en una ficha que permita la fácil identificación de los productos que hacen parte de los bienes de la empresa, bien sea existencias físicas, materia prima, productos semiterminados o terminados. 
@@ -105,7 +105,7 @@
                 p El código y la serie marcados en los equipos se utilizan para etiquetarlos, rotuladores u otro método que facilite su identificación.
                 p Esta identificación de los equipos debe hacerse de manera completa. No se aceptarán descripciones genéricas como mosquetón, jumar, entre otros; es necesaria la marca, el modelo, el tipo, e incluso se sugiere registrar el color. 
     .row
-      .col-auto.fondotitulo.mb-5(data-aos="fade-down-right")
+      .col-auto.fondotitulo(data-aos="fade-down-right")
         h3.text-center.mb-0 Solicitud y entrega de equipos
     p.my-5(data-aos="fade-down-left") El proceso de solicitud y entrega de equipos en el guionaje se hace por medio de un soporte denominado 
       span.resaltado.text-bold “requisición”
@@ -165,7 +165,7 @@
         span(data-aos="fade-down-left") , esta filosofía es de origen japonés y hace referencia a diferentes principios necesarios para llevar a cabo la implementación del método, estos son: clasificación, organización, limpieza, estandarizar y seguir mejorando. En el idioma japonés, todas estas palabras inician con la letra s, y van en unísono hacia la dirección, optimización y el almacenamiento de bienes físicos. 
         span.text-bold(data-aos="fade-down-left") A continuación, se realizará la descripción del cada proceso:
         .row.justify-content-center
-          .col-lg-10.col-md-12(data-aos="fade-down-right")
+          .col-lg-9.col-md-12(data-aos="fade-down-right")
             ImagenInfografica.color-acento-botones.my-5
               template(v-slot:imagen)
                 figure

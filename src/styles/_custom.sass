@@ -241,7 +241,7 @@
       height: 300px
       width: 230px 
     @media (max-width: 768px)
-      height: 240px
+      height: 270px
       width: 100%
     @media (max-width: 576px)
       height: 240px
@@ -340,15 +340,17 @@
 .margen
   margin-bottom: 16.5em
   margin-top: 2em
-  padding-inline: 0
+  padding-left: 0.75em
+  padding-right: 3em
   @media (max-width: 1400px)
     margin-bottom: 14.5em
     margin-top: 3em
     padding-inline: 1em
   @media (max-width: 1200px)
     margin-bottom: 13.5em
-    margin-top: 5em
-    padding-inline: 0.5em
+    margin-top: 5.5em
+    padding-left: 0.5em
+    padding-right: 1.5em
   @media (max-width: 768px)
     margin-bottom: 11em
     margin-top: 6em
@@ -356,12 +358,13 @@
   @media (max-width: 576px)
     margin-bottom: 11em
     margin-top: 1em
-    padding-inline: 9em
+    padding-left: 9.5em
+    padding-right: 10em
   @media (max-width: 500px)
     margin-bottom: 11em
     margin-top: 1em
-    padding-left: 7em
-    padding-right: 8em
+    padding-left: 8em
+    padding-right: 9em
   @media (max-width: 450px)
     margin-bottom: 11em
     margin-top: 1em
@@ -487,6 +490,13 @@
 //tamaño del punto de la infografia
 .img-infografica__item__dot, .img-infografica-b__item__dot
   position: relative
-  width: 200%
-  left: -50%
-  padding-top: 200%
+  width: 100%
+  padding-top: 100%
+
+.img-infografica__item__dot:before
+  width: 100%
+  height: 100%
+
+.img-infografica__item__dot:after
+  width: 100%
+  height: 100%
