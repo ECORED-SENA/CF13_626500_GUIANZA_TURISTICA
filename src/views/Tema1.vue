@@ -83,7 +83,7 @@
                     | Dibujar un cuadro alrededor del mapa para mostrar sus límites.
           .col-lg-5.col-md-12.fondo-4(data-aos="fade-down-left")
             .row.justify-content-center
-              .col-4.pt-5
+              .col-lg-2.col-md-2.col-sm-5.col-3.pt-4
                 img(src='@/assets/curso/tema1/figura6.svg')
               .col-12
                 p.px-4.pt-4 Al ser el mapa de proceso una representación global, no especifica el flujo de trabajo dentro del servicio, en consecuencia, no contiene símbolos de toma de decisión ni almacenamiento, para esos detalles se utiliza el diagrama de flujo. 
@@ -248,9 +248,9 @@
         .tarjeta.fondo-4
           .text-dark.p-4
             p.mt-2.mt-sm-3.mt-md-0.mt-lg-3 Mediante un consenso se asignará un nombre que transmita el significado de cada grupo de fichas o tarjetas.
-    .cajon.fondocuadrado.px-4.pt-4.pb-0.mb-4.fondo-2.sombra1(data-aos="fade-down-left")
+    .cajon.fondocuadrado.p-4.mb-4.fondo-2.sombra1(data-aos="fade-down-left")
       .row.justify-content-center.align-items-center
-        .col-lg-1.col-md-2.col-sm-3.col-3.mb-4
+        .col-lg-1.col-md-2.col-sm-3.col-3.mb-4.mb-sm-0
           img(src='@/assets/curso/tema1/bombilla.svg')
         .col-lg-10.col-md-9.col-sm-9.col-12
           p.px-3.mb-0 Existen varios ejemplos que contextualizan lo que debe incorporar un diagrama de afinidad, en la siguiente gráfica se establece, a manera de modelo y de forma general, cómo elaborar el diagrama mediante la lluvia de ideas:
