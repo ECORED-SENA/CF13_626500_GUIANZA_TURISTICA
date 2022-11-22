@@ -11,7 +11,7 @@
         img(src='@/assets/curso/tema1/imagen1.jpg')
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         p El guía de turismo, por ser un prestador de servicios turísticos, puede desempeñarse de manera independiente, y es reconocido como una empresa unipersonal. Sin embargo, es una empresa que igualmente se debe organizar con una estructura antes de empezar la operación. La guianza al adoptar los principios de la administración, planificar, controlar, dirigir y organizar recursos, también requiere de una estructura, es decir, de la definición de funciones, responsabilidades, relaciones de coordinación y comunicaciones con el fin de lograr los objetivos de un servicio.
-        p.p-3.fondo-1 Con miras a establecer una estructura empresarial, se requieren herramientas de organización administrativa, para que el guía puede trazar procesos dinámicos, coordinar e integrar un conjunto de personas en relación con unos recursos, y así conseguir el resultado u objeto planteado en el plan de acción.
+        p.p-3.fondo-1 Con miras a establecer una estructura empresarial, se requieren herramientas de organización administrativa, para que el guía pueda trazar procesos dinámicos, coordinar e integrar un conjunto de personas en relación con unos recursos, y así conseguir el resultado u objeto planteado en el plan de acción.
     p.mb-5(data-aos="fade-down-left") Al generar una estructura, todos los actores que intervienen en el servicio guiado comprenden los objetivos, funciones y sus responsabilidades, con el fin de determinar dicha estructura organizacional, para lo cual se requiere la aplicación de los siguientes principios de acuerdo con Chiavenato (2012).
     .row.justify-content-center.align-items-center
       .col-lg-7.col-md-12(data-aos="fade-down-right")
@@ -139,9 +139,9 @@
       )
       .bloque-texto-g__texto.p-4
         span.mb-0.resaltado.text-bold El manual es una herramienta necesaria para el trabajo en equipo
-        span , especialmente cuando constituye una agencia operadora en la ejecuta el proceso de manera independiente, es decir, cuando la contratación del servicio es directa sin intermediación de la agencia de viajes y turismo, por tanto, la agencia operadora asume todas responsabilidad sobre la exitosa prestación del servicio.
+        span , especialmente cuando se constituye una agencia operadora que ejecuta el proceso de manera independiente, es decir, cuando la contratación del servicio es directa sin intermediación de la agencia de viajes y turismo, por tanto, la agencia operadora asume toda responsabilidad sobre la exitosa prestación del servicio.
     p.mt-5(data-aos="fade-down-left") Según Tarí  y Molina (2007), un manual es una recopilación minuciosa y detallada en forma de texto, con las  instrucciones  que  se  deben  seguir  para  realizar una determinada actividad. Se caracteriza por estar pensado en el lector, para que pueda desarrollar correctamente la tarea encomendada. 
-    p.mb-5(data-aos="fade-down-right") Cuando una organización, puede ser una agencia operadora o en este caso el guía, genera y adopta un manual de procedimientos, está documentando su experiencia, conocimiento y las técnicas del como prestar el servicio guiado. Una breve descripción sobre el manual de procedimientos puede consultarse a continuación.
+    p.mb-5(data-aos="fade-down-right") Cuando una organización, puede ser una agencia operadora o en este caso el guía, genera y adopta un manual de procedimientos, está documentando su experiencia, conocimiento y las técnicas del cómo prestar el servicio guiado. Una breve descripción sobre el manual de procedimientos puede consultarse a continuación.
     .row
       .col-auto.fondotitulo(data-aos="fade-down-right")
         h3.text-center.mb-0 Elementos que debe contener un manual de procedimientos

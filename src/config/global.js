@@ -157,7 +157,7 @@ export default {
       referencia:
         'Bravo, C., J. (2011). Gestión de Procesos Alineados con la estrategia (4ª Edición). Evolución.',
       tipo: 'Libro',
-      descarga:
+      link:
         'http://hsjd.org/seminariogestion2013/docs/02-Dia5-TercerModeloProcesos.pdf',
     },
     {

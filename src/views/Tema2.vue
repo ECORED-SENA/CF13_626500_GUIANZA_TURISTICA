@@ -20,7 +20,7 @@
       .col-lg-10.col-11.fondorosado(data-aos="fade-down-left")
         .row
           .col-lg-10.col-md-9.col-sm-8.col-8
-            p.pt-2.ps-5.ms-0.ms-md-5.py-lg-4 Mostrar gráficamente los productos y servicios disponibles y ejemplos de servicios prestador o el potencial.
+            p.pt-2.ps-5.ms-0.ms-md-5.py-lg-4 Mostrar gráficamente los productos y servicios disponibles y ejemplos de servicios prestados o el potencial.
           .col-lg-2.col-md-3.col-sm-4.col-4
             img.colocar2.p-2(src='@/assets/curso/tema2/fig1-2.svg')
       .col-lg-10.col-11.fondogrisconborde(data-aos="fade-down-right")
@@ -152,7 +152,8 @@
                 tr.fondo-23.bordesup
                   td.text-center.anchocol Nivel 5 
                   td 
-                    p Alineado a la izquierda • Negrita • Cursiva • Cada Palabra Iniciando en Mayúscula • Con sangría de ½ pulgada (1.27 cm) • Con punto final. Texto inicia en la misma línea
+                    span.text-bold Alineado a la izquierda • Negrita • Cursiva • Cada Palabra Iniciando en Mayúscula • Con sangría de ½ pulgada (1.27 cm) • Con punto final. 
+                    span Texto inicia en la misma línea
           .row.mt-1.mb-5.justify-content-center
             .col-lg-10.col-md-12
               .row
@@ -212,7 +213,7 @@
             .tarjeta.fondo-4
               .text-dark.p-4
                 h4.text-center Ventajas
-                p.mt-2.mt-sm-3.mt-md-0.mt-lg-3 Como ventaja para la empresa está en que puede enviarse mensajes masivos de promoción facilitando la rápida divulgación textos, imágenes, archivos adjuntos, multimedia.
+                p.mt-2.mt-sm-3.mt-md-0.mt-lg-3 Como ventaja para la empresa, está en que puede enviarse mensajes masivos de promoción facilitando la rápida divulgación de textos, imágenes, archivos adjuntos, multimedia.
 
           .tarjeta-avatar.imagenavatar
             img(src='@/assets/curso/tema2/slider4.svg')

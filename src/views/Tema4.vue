@@ -150,7 +150,7 @@
             p.mb-0 Por pérdida de tiempo. Las esperas, cuando suponen pérdida de dinero. 
             p.mb-0 Por anulación de la salida por huelga o protesta (depende). 
             p.mb-0 Por pérdida de conexiones .
-            p.mb-0 Por demora en el viaje por over booking o sobreventa.
+            p.mb-0 Por demora en el viaje por <em>over booking</em> o sobreventa.
           .col-2.fondo-35.sombra1.p-4.mt-2.mb-5(data-aos="fade-down")
             p.mb-0 Gastos de anulación el viaje o regreso anticipado cuando: 
             p.mb-0 Enfermedad grave del viajero.
@@ -188,7 +188,7 @@
             p.mb-0 Por pérdida de tiempo. Las esperas, cuando suponen pérdida de dinero. 
             p.mb-0 Por anulación de la salida por huelga o protesta (depende). 
             p.mb-0 Por pérdida de conexiones .
-            p.mb-0 Por demora en el viaje por over booking o sobreventa.
+            p.mb-0 Por demora en el viaje por <em>over booking</em> o sobreventa.
           .col-4.fondo-35.sombra1.p-4.mt-2.mb-5(data-aos="fade-down-right")
             p.mb-0 Gastos de anulación el viaje o regreso anticipado cuando: 
             p.mb-0 Enfermedad grave del viajero.
@@ -210,16 +210,16 @@
         .row.justify-content-center.align-items-center.p-3.p-lg-5
           .col-lg-9.col-md-12(data-aos="fade-down-right")
             h3 Para cobrar o activar el seguro se recomienda:
-            p Tener a la mano los números de contacto de la compañía de seguros, el número de la póliza. Si el turista tiene incapacidad para comunicarse, el guía de turismo debe asumir su labor se asistencia y ponerse en contacto con la compañía y reportar lo sucedido.
-            p Si la póliza se obtuvo por medio de un corredor de seguros o una agencia de viajes y turismo, contáctelo, ellos le facilitarán el proceso de activación.
-            p epende de las especificaciones del seguro, la compañía puede tener proveedores que atiendan el siniestro o condición del pasajero, en este caso le dará indicaciones para localizarlos. También puede existir el caso en que el usuario deba asumir el costo de la atención médica, la compra de elementos o cubrir lo que se requiera y luego con la factura solicitar el rembolso a la compañía de seguros.
+            p Tener a la mano los números de contacto de la compañía de seguros, el número de la póliza. Si el turista tiene incapacidad para comunicarse, el guía de turismo debe asumir su labor de asistencia y ponerse en contacto con la compañía y reportar lo sucedido.
+            p Si la póliza se obtuvo por medio de un corredor de seguros o una agencia de viajes y turismo, contáctelos, ellos le facilitarán el proceso de activación.
+            p Depende de las especificaciones del seguro, la compañía puede tener proveedores que atiendan el siniestro o condición del pasajero, en este caso le dará indicaciones para localizarlos. También puede existir el caso en que el usuario deba asumir el costo de la atención médica, la compra de elementos o cubrir lo que se requiera y luego con la factura solicitar el rembolso a la compañía de seguros.
           .col-lg-3.col-md-5.col-sm-5.col-6(data-aos="fade-down-left")
             img(src='@/assets/curso/tema4/figura4.svg')
     separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-down-left")
       h2 4.3 Ingreso a los atractivos turísticos
     p(data-aos="fade-down-rightt") En Colombia la declaratoria de los atractivos turísticos está reglamentada por la Ley General de Turismo; Ley 2068 de 2020. Los concejos distritales o municipales y las asambleas departamentales, previo concepto del Ministerio de Comercio, Industria y Turismo, podrán declarar atractivos turísticos de utilidad pública aquellas zonas urbanas, de expansión o rurales, ecosistemas, paisajes, plazas, vías, monumentos y construcciones entre otros (Congreso de la República de Colombia, 2020). 
-    p(data-aos="fade-down-left") Sin embargo, la declaratoria enmarca acciones de cuidado y administración, lo cual no debe interpretarse con que se convierta en un bien público de libre acceso para turistas y prestadores de servicios. Por lo tanto, el guía de turismo debe confirmar quien es la entidad encargada de su administración y las condiciones para su ingreso. 
+    p(data-aos="fade-down-left") Sin embargo, la declaratoria enmarca acciones de cuidado y administración, lo cual no debe interpretarse con que se convierta en un bien público de libre acceso para turistas y prestadores de servicios. Por lo tanto, el guía de turismo debe confirmar quién es la entidad encargada de su administración y las condiciones para su ingreso. 
     p.text-bold(data-aos="fade-down-right") Algunos ejemplos de atractivos que requieren de una gestión detallada antes de la visita son:
 
     .row.justify-content-center
@@ -231,7 +231,7 @@
 
           .tarjeta.fondo-13.p-3.bordetarjeta(x="34.5%" y="19.2%" numero="+")
             p.text-bold Ubicado en territorio de minorías étnicas
-            p Si los atractivos turísticos ubicados en los territorios de minorías étnicas, se debe contar con el previo consentimiento de las respectivas comunidades para visitarlos. 
+            p Si los atractivos turísticos están ubicados en los territorios de minorías étnicas, se debe contar con el previo consentimiento de las respectivas comunidades para visitarlos. 
 
           .tarjeta.fondo-13.p-3.bordetarjeta(x="36.5%" y="48.2%" numero="+")
             p.text-bold Visita a áreas protegidas

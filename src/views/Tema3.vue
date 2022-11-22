@@ -57,10 +57,10 @@
           td.bordeizq  Nombre
         tr.fondo-27
           td.anchocol BD
-          td.bordeizq  Paleta para parar el tránsito Plástica Verde
-          td.bordeizq  Coleman
+          td.bordeizq Bolsa de dormir roja y gris doble faz
+          td.bordeizq Coleman
           td.bordeizq 12
-          td.bordeizq  No operario
+          td.bordeizq  No operativo
           td.bordeizq  Nombre
     p.my-5(data-aos="fade-down-left") Una explicación más detallada de cada uno de los elementos que componen la ficha de inventario se describe a continuación.
     .row.justify-content-center
@@ -118,7 +118,7 @@
         .row.justify-content-center
           .col-lg-8.col-md-10.col-sm-12.py-5(data-aos="fade-down-right")
             img(src='@/assets/curso/tema3/diagrama.svg')
-    p.my-5(data-aos="fade-down-left") El formato para solicitud y devolución de equipos es construido por cada contratante u organización según sus políticas empresariales, se realiza a partir del momento en el que el guía tiene la información del servicio que va a ejecutar, y selecciona los equipos que requiere, con ello se hace la solicitud al encargado del almacenamiento de los equipos, o el mismo realiza el alistamiento (SENA, 2018). A continuación, se detalla, a manera de ejemplo, un formato de requerimientos.
+    p.my-5(data-aos="fade-down-left") El formato para solicitud y devolución de equipos es construido por cada contratante u organización según sus políticas empresariales, se realiza a partir del momento en el que el guía tiene la información del servicio que va a ejecutar, y selecciona los equipos que requiere, con ello se hace la solicitud al encargado del almacenamiento de los equipos, o él mismo realiza el alistamiento (SENA, 2018). A continuación, se detalla, a manera de ejemplo, un formato de requerimientos.
     .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade")
       h5 Tabla 2
       span Ejemplo de un formato de requerimientos
@@ -156,12 +156,12 @@
     .row.justify-content-center
       .col-lg-6.col-md-12.fondo-4.mb-4.py-5.px-3(data-aos="fade-down-left")
         p El almacenamiento es una actividad que tiene por objeto organizar, guardar y proteger equipos que hacen parte de la actividad de la guianza turística. Los equipos almacenados están debidamente registrados, lo cual facilita llevar su control, posibilitando la rotación de aquellos defectuosos o que no respaldan el cumplimiento de la normatividad.
-        p Además de planear y proyectar los requerimientos de equipos, es necesario conocer la forma cómo se clasifican, se almacenan en un espacio físico adecuado, y se transportan en condiciones ambientales óptimas, garantizando su conservación y aseguramiento (SENA, 2018).
+        p Además de planear y proyectar los requerimientos de equipos, es necesario conocer la forma como se clasifican, se almacenan en un espacio físico adecuado, y se transportan en condiciones ambientales óptimas, garantizando su conservación y aseguramiento (SENA, 2018).
       .col-lg-6.col-md-12(data-aos="fade-down-left")
         img(src='@/assets/curso/tema3/imagen2.jpg')
     .row.ampliar.px-5.fondo-25.my-5
       .col-12
-        span.text-bold.resaltado(data-aos="fade-down-left") Una técnica genérica que se aplica a cualquier equipo o elemento corresponde a los a una acción de realizar denominados principios “Cinco S” conocida también como “5S”
+        span.text-bold.resaltado(data-aos="fade-down-left") Una técnica genérica que se aplica a cualquier equipo o elemento corresponde a la acción de realizar los principios denominados “Cinco S” conocidos también como “5S”
         span(data-aos="fade-down-left") , esta filosofía es de origen japonés y hace referencia a diferentes principios necesarios para llevar a cabo la implementación del método, estos son: clasificación, organización, limpieza, estandarizar y seguir mejorando. En el idioma japonés, todas estas palabras inician con la letra s, y van en unísono hacia la dirección, optimización y el almacenamiento de bienes físicos. 
         span.text-bold(data-aos="fade-down-left") A continuación, se realizará la descripción del cada proceso:
         .row.justify-content-center
@@ -225,7 +225,7 @@
             | El equipo se entrega limpio y ordenado. Informar al encargado cualquier daño o mal funcionamiento, con el objeto de tomar acción inmediata y así evitar inconvenientes o condiciones de uso inseguras al próximo usuario.
           li 
             i.fas.fa-check
-            | Se aplicará un régimen especial de cuidado y mantenimiento al equipo clasificado, de manera que se la seguridad del guía y los usuarios esté preservada. 
+            | Se aplicará un régimen especial de cuidado y mantenimiento al equipo clasificado, de manera que la seguridad del guía y los usuarios esté preservada. 
 
 </template>
 
