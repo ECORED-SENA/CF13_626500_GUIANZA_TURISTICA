@@ -189,14 +189,6 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=VOeytRHPVUw',
     },
-    {
-      tema: 'Alistamiento administrativo',
-      referencia:
-        'Cabo, N., M. (2004). Seguros de Viaje. Prestaciones que ofrecen al viajero. Paraninfo.',
-      tipo: 'Página web',
-      link:
-        'https://link.gale.com/apps/doc/CX2184800104/GVRL?u=sena&sid=bookmark-GVRL&xid=bef74e3e.',
-    },
   ],
   glosario: [
     {
@@ -312,7 +304,7 @@ export default {
       referencia:
         'Secretaría de Gestión Pública. (2015). Herramientas de apoyo para la implementación de la gestión por procesos en el marco de la política nacional de modernización de la gestión pública. Presidencia del Consejo de Ministros.',
       link:
-        'https://sgp.pcm.gob.pe/wp-content/uploads/2015/03/Herramienta_Diagrama_de_Afinidad.pdf',
+        'https://www.academia.edu/26975278/HERRAMIENTAS_DE_APOYO_PARA_LA_IMPLEMENTACI%C3%93N_DE_LA_GESTI%C3%93N_POR_PROCESOS_EN_EL_MARCO_DE_LA_POL%C3%8DTICA_NACIONAL_DE_MODERNIZACI%C3%93N_DE_LA_GESTI%C3%93N_P%C3%9ABLICA',
     },
     {
       referencia:
