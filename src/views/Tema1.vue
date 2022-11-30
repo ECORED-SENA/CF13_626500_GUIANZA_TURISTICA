@@ -71,7 +71,7 @@
                 ul.lista-ul.mb-3
                   li 
                     i.lista-ul__vineta
-                    | Identificar la acción del usuario del servicio guiado realiza echar a andar o iniciar el proceso.
+                    | Identificar la acción del usuario del servicio guiado realiza para iniciar el proceso.
                   li 
                     i.lista-ul__vineta
                     | Situar al cliente como primer participante.
